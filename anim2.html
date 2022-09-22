@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            #abc{
+                height: 150px;
+                width: 150px;
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="abc">
+
+        </div>
+        <script>
+            var a=0;
+            setInterval(anim,300);
+            function anim()
+            {
+                a=a+10;
+                console.log(a);
+                var target=document.getElementById("abc");
+                target.style.marginLeft=10+"px";
+            }
+        </script>
+    </body>
+</html>

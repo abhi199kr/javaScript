@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <script>
+            function tmarks(math,eng,hindi){
+                var total=math+eng+hindi;
+                return total;
+            }
+            function per(tt){
+                var perc=(tt/300)*100;
+                return perc;
+            }
+            var cal=tmarks(50,60,75);
+            document.write("Total Marks in 3 subjest are:"+cal);
+            document.write("<br>");
+            var tper=per(cal);
+            document.write("Total percentage in 3 subjects "+tper);
+        </script>
+    </body>
+</html>
